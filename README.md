@@ -1,20 +1,19 @@
-# Rails Programming Task
+# Fotofox Rails Programming Task
 
-### In order to be considered for a Rails position, you must complete the following steps.
-*Note: This task should take no longer than 1-2 hours at the most to complete.*
+### In order to be considered for a Fotofox developer position, you must complete the following task.
+*Note: This task should take no longer than 1 hour at the most to complete.*
 
 
 ### Prerequisites
 
-- Please note that this will require some basic [Ruby on Rails](http://rubyonrails.org/) and [MiniTest](http://guides.rubyonrails.org/testing.html) knowledge. 
-
+- Please note that this will require some basic [Ruby on Rails](http://rubyonrails.org/). 
+- You'll need a basic knowledge of [Heroku](https://www.heroku.com/) platform.
 - You will need to have [Ruby on Rails](http://www.rubyonrails.org/) installed to complete this task. 
 
 ## Task
 
-- Fork this repository.
-- Create a *source* directory.
-- In the *source* directory, scaffold a simple Rails 4 web app that models a credit card charge. JSON data structure below: 
+- Create a public repository
+- In that repository, scaffold a simple Rails 5 web app that models a credit card charge. JSON data structure below: 
 
 ```
   {
@@ -73,7 +72,9 @@
 
 ##### Create a Visual Representation of Different Charges:
 
-On the view that shows all charges (most likely the *GET /charges* route), create three lists with H1 headers. 
+On the view that shows all charges (most likely the *GET /* route), create three lists with H1 headers.
+*Note: This is required to be on the home page of live Heroku app, for easy reviewing.*
+
 
 - List 1 - 
   - Header: Failed Charges
@@ -87,19 +88,9 @@ On the view that shows all charges (most likely the *GET /charges* route), creat
   - Header: Successful Charges
   - In this list simply display all the charges that were succesful. 
 
-### Tests
-
-Create the following MiniTest tests:
-
-  1.  Verify that there are three lists on the screen. One for successful charges, one for failed charges and one for the disputed charges. 
-  2.  Verify that in the Successful charges list there are 10 line items. Verify that in the failed charges list there are 5 failed charges. Verify that in the disputed charges list there are failed charges. 
-
 ## Once Complete
-1. Commit and Push your code to your new repository
-2. Send us a pull request, we will review your code and get back to you
-
-
-
-
-
-
+1. Commit and Push your code to your new public repository
+2. Deploy your code to [Heroku](https://www.heroku.com/)
+3. Get back with a message that will contain:
+  - a link to your demo on Heroku
+  - a link to the GitHub repo with your code
